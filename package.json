@@ -1,0 +1,18 @@
+{
+    "name": "dev.redline-team.redinspect",
+    "version": "1.0.0",
+    "description": "An upgraded version of the Unity3D Inspector",
+    "displayName": "Redline Inspect",
+    "unity": "2022.3",
+    "author": {
+      "name": "The Redline Team",
+      "url": "https://github.com/Redline-Team"
+    },
+    "changelogUrl": "https://github.com/Redline-Team/RedInspect/releases",
+    "license": "GPL-3.0",
+    "type": "Tool",
+    "vpmDependencies": {},
+    "legacyFolders": {
+      "Assets\\Redline": ""
+    }
+  }
