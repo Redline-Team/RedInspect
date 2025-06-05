@@ -39,11 +39,12 @@ Welcome to the RedInspect documentation! This guide will help you understand and
 <details>
 <summary>Attributes</summary>
 
-- [RequiredAttribute](Attributes/Required.md)
-- [TagAttribute](Attributes/Tag.md)
-- [LayerAttribute](Attributes/Layer.md)
-- [SceneAttribute](Attributes/Scene.md)
-- [PrefabAttribute](Attributes/Prefab.md)
+- [Attributes](Features/Attributes.md)
+- [RequiredAttribute](Features/Attributes/Required.md)
+- [TagAttribute](Features/Attributes/Tag.md)
+- [LayerAttribute](Features/Attributes/Layer.md)
+- [SceneAttribute](Features/Attributes/Scene.md)
+- [PrefabAttribute](Features/Attributes/Prefab.md)
 </details>
 
 <details>

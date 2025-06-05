@@ -13,6 +13,8 @@ The Unity3D Inspector Enhancer for Unity
 - Validation attributes for components
 - Automatic component dependency management
 
+![RedInspect Preview](.github/assets/redinspect-preview.png)
+
 ## Installation
 
 ### Using RPM/VCC/ALCOM (Recommended)

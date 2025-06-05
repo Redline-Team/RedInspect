@@ -154,7 +154,7 @@ public class RedInspect : Editor
         if (sectionHeaderStyle == null)
         {
             sectionHeaderStyle = new GUIStyle(EditorStyles.boldLabel);
-            sectionHeaderStyle.normal.textColor = sectionColor;
+            sectionHeaderStyle.normal.textColor = EditorGUIUtility.isProSkin ? Color.white : Color.black;
             sectionHeaderStyle.fontSize = 12;
             sectionHeaderStyle.margin = new RectOffset(0, 0, 5, 5);
         }
@@ -190,11 +190,6 @@ public class RedInspect : Editor
     {
         InitializeStyles();
         InitializeSearchableProperties();
-
-        // Draw the default inspector
-        DrawDefaultInspector();
-
-        EditorGUILayout.Space(10);
 
         // Custom Header with icon
         EditorGUILayout.BeginHorizontal();
@@ -272,6 +267,11 @@ public class RedInspect : Editor
         EditorGUILayout.EndVertical();
 
         EditorGUILayout.EndVertical();
+
+        EditorGUILayout.Space(10);
+
+        // Draw the default inspector
+        DrawDefaultInspector();
     }
 
     private void DrawComponentInfo()

@@ -1,7 +1,7 @@
 {
     "name": "dev.redline-team.redinspect",
-    "version": "1.0.0",
-    "description": "An upgraded version of the Unity3D Inspector",
+    "version": "1.1.0",
+    "description": "A Specialized Inspector for Unity Objects",
     "displayName": "Redline Inspect",
     "unity": "2022.3",
     "author": {
