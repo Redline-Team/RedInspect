@@ -5,6 +5,7 @@ This is a Free and Open Source Software
 If you bought this anywhere else or did not get it from here or our VPM then you have been scammed!  
 I will not charge people for FOSS software  
 </details>
+
 # Redline Inspector
 
 The Unity3D Inspector Enhancer for Unity
